@@ -1,0 +1,20 @@
+name: CombatFlyControl
+version: '1.0'
+main: com.fetal.combatflycontrol.CombatFlyControl
+api-version: '1.18'
+authors: [FeTaL]
+description: Advanced combat fly control plugin - overrides WorldGuard and EssentialsX
+softdepend: [WorldGuard, Essentials, EssentialsX]
+commands:
+  combatflycontrol:
+    description: Main command for CombatFlyControl
+    aliases: [cfc]
+    usage: /combatflycontrol [reload]
+    permission: combatflycontrol.admin
+permissions:
+  combatflycontrol.admin:
+    description: Admin permission for CombatFlyControl
+    default: op
+  combatflycontrol.bypass:
+    description: Bypass combat fly restrictions
+    default: false

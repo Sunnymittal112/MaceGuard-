@@ -1,0 +1,38 @@
+# CombatFlyControl Configuration
+# Author: FeTaL
+# Version: 1.0
+
+combat-duration: 15
+
+messages:
+  prefix: "&8[&cCombatFly&8] &r"
+  enter-combat: "&cYou are now in combat! Flight disabled for %seconds% seconds."
+  leave-combat: "&aYou are no longer in combat. You can fly again."
+  cannot-fly-combat: "&cYou cannot fly while in combat!"
+  cannot-hold-mace-flying: "&cYou cannot hold a Mace while flying!"
+  mace-combat-trigger: "&cMace hit! Both players are now in combat for %seconds% seconds."
+  action-bar-timer: "&cCombat: &e%seconds%s"
+
+settings:
+  disable-flight-immediately: true
+  
+  cancel-flight-attempts: true
+  
+  prevent-mace-while-flying: true
+  
+  check-wings-enchantment: true
+  
+  wings-enchantment-name: "WINGS"
+  
+  action-bar-timer: true
+  
+  broadcast-mace-hit: true
+
+worldguard:
+  override-fly-flag: true
+  
+  disabled-regions: []
+  
+  disabled-worlds: []
+
+debug: false

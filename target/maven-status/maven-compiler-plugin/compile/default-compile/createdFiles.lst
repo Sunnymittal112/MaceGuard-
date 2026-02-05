@@ -1,0 +1,7 @@
+com/fetal/combatflycontrol/listeners/FlyListener.class
+com/fetal/combatflycontrol/listeners/MaceListener.class
+com/fetal/combatflycontrol/CombatFlyControl.class
+com/fetal/combatflycontrol/listeners/CombatListener.class
+com/fetal/combatflycontrol/managers/ConfigManager.class
+com/fetal/combatflycontrol/managers/CombatManager.class
+com/fetal/combatflycontrol/tasks/CombatTagTask.class
